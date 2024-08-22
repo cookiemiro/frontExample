@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <!-- 제목줄: 지역별 홍차 -->
+            <tr>
+                <!-- 컬럼이 2개이므로 2개를 만들어야 함 => colspan 속성(2개의 컬럼을 머지함)-->
+                <th colspan="2">지역별 홍차</th>
+            </tr>
+        </thead>
+        <!-- 실제 값이 들어가는 부분 -->
+        <tbody>
+            <!-- 중국의 홍차 -->
+            <tr>
+                <!-- 행이 3개이므로  3개의 행을 머지(rowspan="3")-->
+                <th rowspan="3">중국</th>
+                <td>정산소종</td>
+            </tr>
+            <tr><td>기문</td></tr>
+            <tr><td>운남</td></tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th rowspan="4">인도 및 스리랑카</th>
+                <td>아삼</td>
+            </tr>
+            <tr><td>실론</td></tr>
+            <tr><td>다질링</td></tr>
+            <tr><td>닐기리</td></tr>
+            <tr><td>닐기리1</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
