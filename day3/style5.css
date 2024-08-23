@@ -1,0 +1,39 @@
+/* html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
+
+#second {
+    background-color: seagreen;
+} */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}
+
+#second {
+    background-color: seagreen;
+}
