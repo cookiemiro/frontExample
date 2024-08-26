@@ -1,0 +1,105 @@
+@import "./global.css";
+
+.profile-container-listbox {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.profile-container-listbox p {
+    text-align: center;
+}
+
+.profile-container-listbox li {
+    margin: 1.5rem;
+}
+
+.profile-container-listbox img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.profile-container-listbox span {
+    border-radius: 50%;
+    font-size: 5rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: gray;
+}
+
+.movie-continue-list {
+    display: flex;
+}
+
+.profile-container span:last-child {
+    display: block;
+    margin: 20px;
+}
+
+.movie-continue-list {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.movie-continue-list div {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3px;
+    width: 12rem;
+    height: 8.5rem;
+    border-radius: 1rem;
+}
+
+.movie-continue-list img {
+    border-radius: 1rem;
+    height: 6rem;
+    margin: 5px;
+}
+
+.movie-continue-list span {
+    display: block;
+    padding-left: 5px;
+}
+
+.hr-span-container {
+    margin: 20px 20px;
+}
+
+.movie-wish-list-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.movie-wish-list {
+    display: flex;
+    background-color: mediumpurple;
+    margin-bottom: 1rem;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.movie-wish-list img {
+    width: 3rem;
+    height: 3rem;
+    margin: 5px;
+    border-radius: 1rem;
+}
+
+.movie-wish-list__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.movie-wish-list-container .material-symbols-outlined {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    border-radius: 50%;
+    background-color: aqua;
+    font-size: 2rem;
+}

@@ -1,0 +1,17 @@
+.navigation-bar {
+    background-color: rgb(87, 70, 161);
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0 15px 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    /* 화면 가장 아래에 위치시킴. 아래부터 0만큼 떨어짐. */
+    bottom: 0;
+}
+
+.navigation-bar span {
+    color: aquamarine;
+    font-size: 1.5rem;
+}

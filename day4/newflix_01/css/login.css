@@ -1,0 +1,49 @@
+@import "./global.css";
+@import "./reset.css";
+
+.login-title {
+    text-align: center;
+
+}
+
+.login-title-maintext {
+    font-size: 3rem;
+    color: var(--darkblack);
+}
+
+.login-title-subtext {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+.login-form input {
+    padding: 15px 0;
+    margin: 0 10px;
+    background-color: var(--darkblack);
+    /* border: 1px solid red; */
+    font-size: 1rem;
+}
+
+.login-form {
+    color: wheat;
+    border-bottom: 1px solid var(--darkblack);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input:focus {
+    border-color: rgb(214, 24, 24);
+}
+
+.login-form input[type="text"]:active {
+    background-color: var(--background-purple);
+}
