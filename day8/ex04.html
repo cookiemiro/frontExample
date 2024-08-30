@@ -1,0 +1,24 @@
+<script>
+    // HOF(High Order Function: 고차함수) => 함수를 인수로 받을 수 있는 함수
+    // function sleep(fun, delay) {
+    //     const delayTime = Date.now() + delay;
+
+    //     while (Date.now() < delayTime);
+
+    //     // Delay 구간
+    //     fun();
+
+    // }
+
+    function fun1() {
+        console.log("I'm func1");
+    }
+
+    function fun2() {
+        console.log("I'm func2");
+    }
+
+    setTimeout(fun1, 3000);
+
+    fun2();
+</script>

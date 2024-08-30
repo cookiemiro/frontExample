@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 실행컨텍스트 스택
+        const number = 1;
+
+        function func1() {
+            const num2 =2;
+
+            function func2() {
+                const num3 = 3;
+                console.log(num1 + num2 + num3);
+            }
+
+            func2();
+        }
+
+        func1();
+    </script>
+</body>
+</html>
